@@ -1,0 +1,12 @@
+Source: ros-indigo-micros-hopfield
+Section: misc
+Priority: extra
+Maintainer: Tianjiang Hu <t.j.hu@nudt.edu.cn>
+Build-Depends: debhelper (>= 9.0.0), ros-indigo-catkin
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-indigo-micros-hopfield
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, 
+Description: A package for path planning
